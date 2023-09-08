@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>App</title>
+		<style>
+			body { margin: 0; }
+			.text-style{
+				position: absolute;
+				z-index: 100;
+				border: 1px solid black;
+				background: #FFFFFF;
+				opacity: 0.5;
+				font-family: Arial;
+				font-weight: bold;
+				font-size: 20px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+		</style>
+		<script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+		<script type="importmap">
+		  {
+			"imports": {
+			  "three": "https://unpkg.com/three@v0.156.1/build/three.module.js",
+			  "three/addons/": "https://unpkg.com/three@v0.156.1/examples/jsm/"
+			}
+		  }
+		</script>
+	</head>
+	<body>
+		<div id="text_0_0_0" class="text-style">(0,0,0)</div>
+		<div id="text_0_0_1" class="text-style">(0,0,10)</div>
+		<div id="text_0_0_2" class="text-style">(0,0,20)</div>
+		<div id="text_0_1_0" class="text-style">(0,10,0)</div>
+		<div id="text_0_2_0" class="text-style">(0,20,0)</div>
+		<div id="text_1_0_0" class="text-style">(10,0,0)</div>
+		<div id="text_2_0_0" class="text-style">(20,0,0)</div>
+		<script type="module" src="/visualizer_obj.js"></script>
+	</body>
+</html>
