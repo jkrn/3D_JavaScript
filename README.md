@@ -1,6 +1,6 @@
 # 3D_JavaScript
 
-3D JavaScript examples are in the folders "visualizer_obj", "functionplot" and "cubes".
+Different 3D JavaScript examples are in the folders "visualizer_obj", "functionplot" and "cubes".
 
 For the 3D visualization the library Three.js is used.
 
